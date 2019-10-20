@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Orders
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+      <ion-card class="order" no-lines *ngFor="let order of listOfOrders" (click)="view(order.orderId)">
+         <span class="orderId">#{{order?.orderId}}</span>        
+          <span class="orderStatus"><ion-icon name="bicycle" [style.color]="order?.status == 'PENDING' ? '#F1C237' : '#298463'"></ion-icon> </span>
+        </ion-card>
+
+</ion-content>

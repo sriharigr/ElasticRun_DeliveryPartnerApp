@@ -1,0 +1,48 @@
+.order-view-blk, .payment-blk {
+    padding: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+
+}
+.order-view-blk span {
+    font-size: 17px;
+    font-weight: 600;
+    // color: #808080;
+
+}
+
+.order-view-blk h4 {
+text-underline-position: below;
+}
+
+.item-native {
+    padding-left: 5px !important;
+}
+
+.verify-success-blk {
+    font-weight: 600 !important;
+    font-size: 30px !important;
+}
+
+.verify-success-icon {
+    color: green;
+    position: relative;
+    top:3px;
+}
+.delivered-icon {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    color: green;
+}
+
+.post-delivery {
+    text-align: center !important;
+   position: relative;
+   top: 40px;
+}
+
+label {
+    width: 100%;
+    font-size: 18px;
+}
